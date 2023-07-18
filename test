@@ -1,0 +1,31 @@
+int	main(void)
+{
+	int				n;
+//	char			c = 'A';
+//	char			*str = "mola";
+	int				num = 10;
+//	int				num = -2147483648;
+//	unsigned int	uni = 4294967295;
+//	unsigned int	hex = 33;
+//	int				a = 10;
+//	int				*pointer = &a;
+
+
+	n = ft_printf("decimal = %d", num);
+	printf("\n------\ndecimal = %d n = %i", num, n);
+//	n = ft_printf("pointer = %p", pointer);
+//	printf("\n------\npointer = %p n = %i", pointer, n);
+//	n = ft_printf("hex = %x", hex);
+//	printf("\n------\nhex = %x n = %i", hex, n);
+//	n = ft_printf(" NULL %s NULL ", NULL);
+//	printf("\n------\nn = %i\n", n);
+//	n = printf(" NULL %s NULL ", NULL);
+//	printf("\n------\nn = %i\n", n);
+//	n = ft_printf("%c %s%%", c, str);
+//	n = ft_printf("%c %s%%", c, str);
+//	printf("\n------\nn = %i\n", n);
+//	n = ft_printf("%i", num);
+//	printf("\n------\nn = %i\n", n);
+//	ft_printf("\n%c %s %d%%%i o %u. hex = %x\n", c, str, num, num, uni, hex);
+	return (0);
+}
